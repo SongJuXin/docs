@@ -150,3 +150,7 @@ server {
 
     }
 ```
+
+### 6.重启nginx
+- 执行`nginx -t`验证是否有语法错误。有错误则修改错误。
+- 执行`nginx -s reload`重启nginx
