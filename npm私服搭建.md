@@ -101,7 +101,9 @@ pm2 list verdaccio
 ```
 如果列表中status是绿色的online，则代表启动成功。
 
-~~另外，不清楚启全局的verdaccio`pm2 start verdaccio`会启动失败~~，现在发现`pm2 start verdaccio`又可以了。
+~~另外，不清楚启全局的verdaccio`pm2 start verdaccio`会启动失败~~，~~现在发现`pm2 start verdaccio`又可以了。~~
+
+如果当前目录不是安装目录，且有个叫verdaccio的文件，执行pm2 start verdaccio,会把这个verdaccio文件执行，就会导致出错。
 
 ---
 参考连接：
