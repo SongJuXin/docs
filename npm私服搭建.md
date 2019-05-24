@@ -14,7 +14,7 @@
 node的安装不多说，我当前node版本是v10.15.3
 
 #### 2. 安装verdaccio
-全局安装verdaccio：
+全局安装verdaccio,版本为3.12.0：
 ```
 npm install -g verdaccio --unsafe-perm
 ```
@@ -101,8 +101,9 @@ pm2 list verdaccio
 ```
 如果列表中status是绿色的online，则代表启动成功。
 
-另外，不清楚启全局的verdaccio`pm2 start verdaccio`会启动失败
+~~另外，不清楚启全局的verdaccio`pm2 start verdaccio`会启动失败~~，现在发现`pm2 start verdaccio`又可以了。
 
-
-以上
 ---
+参考连接：
+- https://github.com/verdaccio/verdaccio
+- https://blog.csdn.net/yyzzhc999/article/details/80097073
